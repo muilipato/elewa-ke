@@ -1,3 +1,33 @@
+:root{
+    --regular-font-style: "DMSans-Regular";
+    --regular-font-size: 1.2rem;
+}
 header{
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.logo{
+    margin:2rem;
+}
+
+.menu{
+    margin: 2rem;
+    display:flex;
+    gap: 2rem;
+
+}
+.menu li{
+    color: white;
+    list-style: none;
+    cursor: pointer;
+    font-size: var(--regular-font-size);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 0.5px solid transparent;
+    transition: border-bottom 0.2s;
+}
+.menu li:hover{
+    border-bottom: 0.5px solid #fff;
 }
