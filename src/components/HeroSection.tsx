@@ -3,7 +3,8 @@ import heroText from '../data/heroText.json'
 import './styles/heroSection.css'
 
 export default function HeroSection(){
-    const {heading, description, description2}= heroText[0]
+    /**Destructuring */
+    const {heading, description, description2}= heroText[0]  //Object is first element of the array
     return(
 
         <div className="hero-container">

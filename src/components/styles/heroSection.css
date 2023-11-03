@@ -2,7 +2,10 @@
 .hero-container{
     overflow: hidden; /** To avoid scroll action horizontally*/
     position:absolute;
-    top: 200px;
+    top: 200px;   /** Moves the hero
+                    descriptions to the
+                    center of the image*/
+
     left: 90px;
     max-width: 800px;
     z-index: 1;
