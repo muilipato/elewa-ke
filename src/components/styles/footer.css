@@ -1,13 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=DM Sans');
+:root{
+    --regular-font: 'DM Sans';
+}
 .footer{
+    position: absolute;
     width: 100%;
-    padding: 0 2rem;
-    box-sizing: border-box;
+    left: 0;
     background-color: black;
+    border-radius: 25px 25px 0 0;
+    overflow: hidden;
+    font-family: var(--regular-font);
+
+
 }
 
 .line{
-    width: 100%;
+    width: 90%;
     height: 2px;
     background-color: #fff;
-    margin: 1rem 0;
+    margin: 7rem 4rem 0;
+
+}
+.company-details{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin: 0rem 5rem 0;
+}
+.company-details h2{
+    font-weight: 200;
+    font-size: 1.3rem;
 }

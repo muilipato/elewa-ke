@@ -1,0 +1,36 @@
+{
+    "address":{
+        "addressTitle": "Headquarters",
+        "premises": "The Promenade, 19 General",
+        "street": "Mathenge Rd",
+        "city" : "Nairobi, Kenya"
+    },
+    "contact": {
+        "contactTitle" : "Contact",
+        "phone" : "T +254 78 92 27 755",
+        "email" : "E info@elewa.ke"
+
+    },
+    "nav" : {
+        "navTitle" : "Navigation",
+        "about" : "About us",
+        "socialImpact": "Social impact",
+        "invest" : "Invest",
+        "news" : "News",
+        "contact" : "Contact"
+
+    },
+    "companyBrands" : {
+        "brandsTitle" : "Brands",
+        "elewa" : "Elewa",
+        "italanta": "Italanta",
+        "vlabs": "Venture Labs"
+
+    },
+    "privacy" :{
+        "privacyTitle" : "Privacy",
+        "terms" : "Terms and Conditions",
+        "cookiesPolicy" : "Cookie preferences"
+    }
+
+}
