@@ -1,0 +1,11 @@
+
+.header-hero-content{
+    background-image:url('https://res.cloudinary.com/dyl3rncv3/image/upload/c_scale,q_90,w_2400/v1681285764/elewa-group-website/hero-Images/home-page-bg-min_jfkopo.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin:0;
+    padding: 0;
+    background-position: center;
+
+}

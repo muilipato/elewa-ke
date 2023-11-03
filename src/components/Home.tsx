@@ -1,9 +1,12 @@
 import React from "react";
 import Header from "./Header";
+import './styles/home.css'
 
 function Home(){
     return(
-       <Header/>
+        <div className="header-hero-content">
+          <Header/>
+        </div>
     )
 }
 
