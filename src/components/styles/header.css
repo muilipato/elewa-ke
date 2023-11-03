@@ -3,11 +3,16 @@
     --regular-font-size: 1.2rem;
 }
 header{
-    background-color: black;
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding: 2rem  0 0;
+    background: rgba(255, 255, 255, 0);
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
+    border-bottom: 2px solid #fff;
 }
 .logo{
     margin:2rem;
