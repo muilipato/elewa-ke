@@ -1,5 +1,6 @@
 import './styles/footer.css'
 import footerdata from '../data/footerText.json'
+import SocialMediaIcons from './SocialMediaIcons'
 export default function Footer(){
     /**Imported the json data, then destructuring  */
     const {addressTitle, premises, street, city } =footerdata.address
@@ -45,6 +46,7 @@ export default function Footer(){
                 <p>{cookiesPolicy}</p>
              </div>
         </div>
+        <SocialMediaIcons/>
     </div>
   )
 }
