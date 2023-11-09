@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import HeroSection from "./HeroSection";
+import BelowHeroSection from "./BelowHeroSection";
 import Footer from "./Footer";
 import './styles/home.css'
 
@@ -12,6 +13,7 @@ function Home(){
           <Header/>
           <HeroSection/>
         </div>
+        <BelowHeroSection/>
         <Footer/>
       </>
     )
