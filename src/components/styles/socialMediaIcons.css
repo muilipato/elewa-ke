@@ -3,8 +3,10 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 2rem 5rem 0rem;
+    align-items: center;
 }
 .socials{
     display: flex;
     gap: 2.5rem;
+    height: 30px;
 }
